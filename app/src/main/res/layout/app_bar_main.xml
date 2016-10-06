@@ -17,7 +17,28 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.AppBarOverlay" />
+            app:popupTheme="@style/AppTheme.AppBarOverlay" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_home"
+                android:paddingLeft="50px"
+                android:layout_marginLeft="50px" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"/>
+            <!--<ImageView-->
+                <!--android:layout_width="?attr/actionBarSize"-->
+                <!--android:layout_height="?attr/actionBarSize"-->
+                <!--android:paddingLeft="50px"-->
+                <!--android:background="@drawable/res"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="restaurant"/>-->
+            </android.support.v7.widget.Toolbar>
+
 
     </android.support.design.widget.AppBarLayout>
 
