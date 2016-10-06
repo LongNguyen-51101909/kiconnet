@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">kiconnet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_username_text">Email</string>
+    <string name="login_password_text">Password </string>
+    <string name="login_text_btn">Login </string>
+    <string name="clear_login_text_btn">Clear </string>
+
+</resources>
